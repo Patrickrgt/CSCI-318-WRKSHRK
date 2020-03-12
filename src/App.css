@@ -1,0 +1,316 @@
+/* GLOBAL CSS */
+
+hr {
+  background-color: #707070;
+  margin: 0 !important;
+}
+
+p {
+  margin: 4px 0px;
+}
+
+h2 {
+  margin-bottom: 0 !important;
+}
+
+/* DIRECT CSS */
+
+
+/* LOGIN PAGE  */
+.bold-wh {
+  color: #A5A1A1;
+  font-weight: 500;
+}
+
+.h1-wh {
+  font-size: 48;
+}
+
+.h4-wh {
+  font-size: 24px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.card-contain-gy {
+  padding: 12px 0 4px 0;
+  background-color: #3D3D3D;
+  border: 2px solid #3D3D3D;
+  border-radius: 30px;
+  display: block;
+}
+
+
+
+/* HOME PAGE */
+
+.home-events {
+  border-radius: 15px 15px 0 0;
+  background-color: #3D3D3D;
+  text-align: center;
+  color: #A5A0A0;
+}
+
+.home-events-1 {
+  background-color: #4A4C4D;
+}
+
+.home-event-box {
+  border-radius: 15px;
+  background-color: #3D3D3D;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 
+}
+
+
+/* USER PAGE */
+
+#user-data {
+  display: block;
+}
+
+#add-user {
+  display: none;
+}
+
+.h3-wh {
+  font-size: 28px;
+  color: #A5A0A0;
+  padding-top: 12px;
+}
+
+.user-id {
+  color: #A5A1A1;
+  background-color: #4A4C4D;
+  border: 0;
+  padding: .5rem 0 .05rem 0;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.user-container {
+  background-color: #3D3D3D;
+  padding: 12px 12px 12px 12px;
+  border-radius: 10px;
+}
+
+.user-data-container {
+  background-color: #3D3D3D;
+  padding: 12px 12px 12px 12px;
+  border-radius: 10px 10px 0 0;
+}
+
+.user-form-group {
+  text-align: center;
+  margin: 0 !important;
+}
+
+.user-label {
+  color: #707070;
+}
+
+label {
+  margin: 0 !important;
+}
+
+.user-schedule {
+  background-color: #4A4C4D;
+  display: block;
+  border-radius: 0 0 10px 10px; 
+}
+
+.data-p {
+  margin: 6px 0px;
+  color: #A5A1A1;
+}
+
+/* ACTIVE USER */
+
+.user-container-active {
+  background-color: #4A4C4D;
+  padding: 12px 12px 12px 12px;
+  border-radius: 10px;
+  border-color: #707070 !important;
+  box-shadow: 0 0 0 0.2rem rgba(165, 165, 165, .25) !important;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.bold-wh-active {
+  color: #707070;
+  font-weight: 500;
+}
+
+.user-id-active {
+  color: #343536;
+  background-color: #707070;
+  border: 0;
+  padding: .5rem 0 .05rem 0;
+  text-align: center;
+  border-radius: 30px;
+}
+
+/* EVENTS PAGE */
+
+.btn-right-align {
+  margin: auto;
+  text-align: right;
+  display: inline-block;
+}
+
+.worker-avail {
+  background-color: #3D3D3D;
+  color: #4A4C4D;
+  margin: auto;
+  width: 80%;
+}
+
+.worker-num-avail {
+  color: #A5A0A0;
+}
+
+.worker-selected {
+  background-color: #A5A0A0;
+  color: #4A4C4D;
+  margin: auto;
+  width: 80%;
+}
+
+.worker-num-selected {
+  color: #A5A0A0;
+}
+
+.worker-width-lim {
+  width: 80% !important;
+}
+
+.worker-label {
+  color: #A5A0A0;
+}
+
+.events-container {
+    background-color: #3D3D3D;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+/* CUSTOM BOOTSTRAP */
+
+/* DO NOT MOVE THIS */
+.btn-secondary {
+  color: #A5A1A1 !important;
+  background-color: #4A4C4D !important;
+  border-color: #4A4C4D !important;
+  border-radius: 15px !important;
+  padding: 4px 24px 4px 24px  !important;
+}
+
+.save-button {
+  background-color: #A5A0A0 !important;
+  color: #343536 !important;
+  margin-bottom: 12px;
+}
+/* DO NOT MOVE THIS */
+
+.container {
+  width: 90% !important;
+}
+
+
+/* DO NOT MOVE THIS */
+.form-control {
+  background-color: #4A4C4D !important;
+  border: none !important;
+  color: #707070 !important;
+  border-radius: 15px !important;
+  height: 3rem !important;
+  padding-right: 2rem !important;
+}
+
+.user-form {
+  height: 1.5rem !important;
+  padding: 0 !important;
+  text-align: center;
+}
+/* DO NOT MOVE THIS */
+
+.form-control:focus {
+  border-color: #707070 !important;
+  box-shadow: 0 0 0 0.2rem rgba(165, 165, 165, 0.25) !important;
+}
+
+
+
+
+
+
+
+/* PRESETS */
+
+.span-divider-1 {
+  display: block;
+  margin-top: .5rem;
+}
+
+.span-divider-2 {
+  display: block;
+  margin-top: 1rem;
+}
+
+.span-divider-3 {
+  display: block;
+  margin-top: 3rem;
+}
+
+.span-divider-4 {
+  display: block;
+  margin-top: 6rem;
+}
+
+.span-divider-5 {
+  display: block;
+  margin-top: 9rem;
+}
+
+.span-divider-6 {
+  display: block;
+  margin-top: 12rem;
+}
+
+.span-divider-7 {
+  display: block;
+  margin-top: 15rem;
+}
+
+.span-divider-8 {
+  display: block;
+  margin-top: 18rem;
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
